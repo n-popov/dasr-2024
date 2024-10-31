@@ -43,8 +43,8 @@
 
 ### Задание
 1. Решите контест по указателям.
-2. Реализуйте структуру данных [Stack](https://education.yandex.ru/handbook/algorithms/article/stek), работающую по парадигме LIFO. Можете обернуть DynArray с семинара или написать выделение памяти руками.
-<code>
+2. Реализуйте структуру данных [Stack](https://education.yandex.ru/handbook/algorithms/article/stek), работающую по парадигме LIFO. Можете обернуть DynArray с семинара, std::vector или написать выделение памяти руками. Не забудьте про освобождение памяти в деструкторе, если выделяли её. Продемонстрируйте работу со структурой данных в функции main.
+<pre>
 struct Stack {
   void push(int value) {
     // add value to the top of stack
@@ -61,5 +61,5 @@ struct Stack {
   bool is_empty() {
     // true if stack is empty
   }
-}
-</code>
+};
+</pre>
