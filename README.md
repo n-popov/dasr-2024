@@ -36,3 +36,30 @@
 ### Задание
 1. Решите 3, 5, 8 задачи из контеста про жадные алгоритмы и дин. программирование.
 2. При наличии времени, интереса и желания опционально решите какие-нибудь из 11-15 задач.
+
+## Восьмой семинар
+
+[Код с семинара](https://github.com/n-popov/dasr-2024/blob/master/first_semester/eighth)
+
+### Задание
+1. Решите контест по указателям.
+2. Реализуйте структуру данных [Stack](https://education.yandex.ru/handbook/algorithms/article/stek), работающую по парадигме LIFO. Можете обернуть DynArray с семинара или написать выделение памяти руками.
+<code>
+struct Stack {
+  void push(int value) {
+    // add value to the top of stack
+  }
+
+  int top() {
+    // get value at the top
+  }
+
+  void pop() {
+    // remove value from top
+  }
+
+  bool is_empty() {
+    // true if stack is empty
+  }
+}
+</code>
