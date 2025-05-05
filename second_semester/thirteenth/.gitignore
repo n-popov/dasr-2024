@@ -1,0 +1,6 @@
+CMakeCache.txt
+CMakeFiles/*
+Makefile
+*.out
+*.cmake
+move_example
